@@ -1,0 +1,135 @@
+ @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;700&family=PT+Serif:wght@700&display=swap");
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+    font-family: "Hind Siliguri", sans-serif;
+}
+/* html{
+    height: 100%;
+} */
+
+body{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+} 
+
+.formContainer{
+    background-color: white;
+    margin: 5rem 0;
+    padding: 2rem ;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+}
+
+.formContainer p > a {
+    columns:  rgb(7, 7, 107);;
+    font-weight: 600;
+}
+
+.formContainer h1 {
+    margin-bottom: 1rem;
+    text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+
+
+.formContainer .username,
+.formContainer .email,
+.formContainer .password,
+.formContainer .confirmPasword{
+    margin-top: 1.5rem;
+}
+
+.formContainer label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+
+.formContainer input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1.5px solid rgb(207, 199, 199);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
+
+input.greenBorder {
+    border: 1.5px solid green;
+}
+
+
+input.redBorder {
+    border: 1.5px solid red;
+}
+
+.formContainer .username > div,
+.formContainer .email > div,
+.formContainer .password > div,
+.formContainer .confirmPasword > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-mark {
+    color: green;
+    font-size: 1.5rem;
+    display: none;
+}
+
+
+.error-check {
+    color: red;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.formContainer .error-message {
+    margin-top: 1rem;
+    color: red;
+    width: 100%;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.formContainer button {
+    cursor: pointer;
+    background-color: rgb(7, 7, 107);
+    color: white;
+    margin: 2rem auto;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: (58, 72, 223, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.successMsg{
+    font-weight: 600;
+}
